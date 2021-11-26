@@ -1,0 +1,39 @@
+baseURL = ''
+languageCode = 'zh'
+defaultContentLanguage = "zh"
+title = 'heguangyu1989'
+theme = "hugo-coder"
+
+[params]
+avatarURL = "images/avatar.jpeg"
+dateFormat = "January 2, 2006"
+since = 2021
+
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/heguangyu1989/"
+
+
+[[languages.zh.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.zh.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
